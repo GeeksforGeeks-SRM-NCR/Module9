@@ -1,0 +1,7 @@
+[
+ {"id":1,"text":"Python is widely used for machine learning and data science."},
+ {"id":2,"text":"SQL databases store structured information and allow queries."},
+ {"id":3,"text":"Deep learning uses neural networks for pattern recognition."},
+ {"id":4,"text":"Vector databases are useful for semantic search and embeddings."},
+ {"id":5,"text":"Machine learning models require proper evaluation metrics."}
+]
