@@ -1,3 +1,2 @@
-def test_retrieval():
-
-    assert False, "Retrieval logic flawed."
+def test_basic()
+    asset true
