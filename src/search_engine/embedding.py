@@ -1,7 +1,5 @@
-from sentence_transformers import SentenceTransformer
-
-model = SentenceTransformer("all-MiniLM-L6-v2")
+import numpy as np
 
 def embed(texts):
-
-    return model.encode(texts)
+    embeddings = model.encode(texts)
+    return embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
